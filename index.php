@@ -3,12 +3,20 @@
 error_reporting(E_ALL);
 ini_set("display_errors", 1);
 
-require('libs/Smarty.class.php'); 
+// FREECOMPANY
+error_reporting(E_ALL);
+ini_set("display_errors", 1);
 
-$smarty = new Smarty();
+require 'api-autoloader.php';
+use Viion\Lodestone\LodestoneAPI;
 
-$smarty->display('tpl/header.tpl');
-$smarty->display('tpl/home.tpl');
-$smarty->display('tpl/footer.tpl');
+$API = new LodestoneAPI();
 
+$FreeCompany = $API->Search->FreeCompany('9234631035923261616', true);
+
+/*echo "<pre>";
+var_dump($FreeCompany);
+echo "</pre>";*/
+
+include 'tpl/home.php';
 ?>
