@@ -1,0 +1,200 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 6, ../sass/reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 27, ../sass/reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 31, ../sass/reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 34, ../sass/reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 37, ../sass/reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 40, ../sass/reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 45, ../sass/reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 1, ../sass/menu.scss */
+.menu {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  width: 100%;
+  padding: 20px 0;
+}
+/* line 6, ../sass/menu.scss */
+.menu ul {
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+/* line 13, ../sass/menu.scss */
+.menu ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.25s;
+}
+/* line 17, ../sass/menu.scss */
+.menu ul li a:hover {
+  transition: 0.25s;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* line 1, ../sass/footer.scss */
+footer {
+  background: #000000;
+  padding: 20px 0;
+  color: #ffffff;
+}
+/* line 6, ../sass/footer.scss */
+footer .footer_element {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+/* line 12, ../sass/footer.scss */
+footer .footer_element a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* line 1, ../sass/home.scss */
+.presentation {
+  background: url("../../images/backgroundPresentation.jpg") no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 400px 0;
+}
+/* line 6, ../sass/home.scss */
+.presentation p {
+  margin-top: 25px;
+  color: #ffffff;
+  font-size: 25px;
+}
+/* line 11, ../sass/home.scss */
+.presentation i {
+  color: #ffffff;
+  font-style: italic;
+  display: block;
+  margin-top: 20px;
+}
+
+/* line 19, ../sass/home.scss */
+.description {
+  background: #323232;
+  padding: 100px 0;
+}
+/* line 22, ../sass/home.scss */
+.description p {
+  width: 510px;
+  color: #ffffff;
+  font-weight: 300;
+  margin: 0 auto;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+/* line 32, ../sass/home.scss */
+.executive {
+  background: #000000;
+  color: #ffffff;
+  padding: 50px 0;
+}
+/* line 36, ../sass/home.scss */
+.executive h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+/* line 41, ../sass/home.scss */
+.executive ul {
+  width: 650px;
+  margin: 0 auto;
+  display: block;
+}
+/* line 45, ../sass/home.scss */
+.executive ul li {
+  display: flex;
+  justify-content: space-around;
+}
+/* line 48, ../sass/home.scss */
+.executive ul li a {
+  text-decoration: none;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.8;
+  transition: 0.25s;
+}
+/* line 54, ../sass/home.scss */
+.executive ul li a:hover {
+  transition: 0.25s;
+  opacity: 1;
+}
+/* line 58, ../sass/home.scss */
+.executive ul li a > img {
+  border: 3px #ffffff solid;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+/* line 63, ../sass/home.scss */
+.executive ul li a p {
+  margin-bottom: 10px;
+}
+
+/* line 9, ../sass/styles.scss */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 12, ../sass/styles.scss */
+h1, h2 {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 700;
+}

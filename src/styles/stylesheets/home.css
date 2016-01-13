@@ -2,16 +2,17 @@
 .presentation {
   background: url("../../images/backgroundPresentation.jpg") no-repeat;
   background-size: cover;
+  background-position: center center;
   text-align: center;
   padding: 400px 0;
 }
-/* line 6, ../sass/home.scss */
+/* line 7, ../sass/home.scss */
 .presentation p {
   margin-top: 25px;
   color: #ffffff;
   font-size: 25px;
 }
-/* line 11, ../sass/home.scss */
+/* line 12, ../sass/home.scss */
 .presentation i {
   color: #ffffff;
   font-style: italic;
@@ -19,13 +20,13 @@
   margin-top: 20px;
 }
 
-/* line 19, ../sass/home.scss */
-.description {
+/* line 20, ../sass/home.scss */
+.description, .info {
   background: #323232;
   padding: 100px 0;
 }
-/* line 22, ../sass/home.scss */
-.description p {
+/* line 23, ../sass/home.scss */
+.description p, .info p {
   width: 510px;
   color: #ffffff;
   font-weight: 300;
@@ -34,26 +35,22 @@
   margin-bottom: 20px;
 }
 
-/* line 32, ../sass/home.scss */
+/* line 33, ../sass/home.scss */
 .executive {
   background: #000000;
   color: #ffffff;
   padding: 50px 0;
 }
-/* line 36, ../sass/home.scss */
+/* line 37, ../sass/home.scss */
 .executive h2 {
   text-align: center;
   font-size: 30px;
   margin-bottom: 50px;
 }
-/* line 41, ../sass/home.scss */
+/* line 42, ../sass/home.scss */
 .executive ul {
   width: 650px;
   margin: 0 auto;
-  display: block;
-}
-/* line 45, ../sass/home.scss */
-.executive ul li {
   display: flex;
   justify-content: space-around;
 }
@@ -79,4 +76,35 @@
 /* line 63, ../sass/home.scss */
 .executive ul li a p {
   margin-bottom: 10px;
+}
+
+@media screen and (max-width: 990px) {
+  /* line 2, ../responsive/home-responsive.scss */
+  .presentation i {
+    padding: 0 20px;
+    line-height: 30px;
+  }
+}
+@media screen and (max-width: 670px) {
+  /* line 10, ../responsive/home-responsive.scss */
+  .description p, .info p {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  /* line 19, ../responsive/home-responsive.scss */
+  .executive ul {
+    width: 100%;
+    display: block;
+  }
+  /* line 22, ../responsive/home-responsive.scss */
+  .executive ul li {
+    text-align: center;
+  }
+  /* line 25, ../responsive/home-responsive.scss */
+  .executive ul li:not(:last-child) {
+    margin-bottom: 50px;
+  }
 }

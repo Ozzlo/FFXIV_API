@@ -24,3 +24,20 @@
   transition: 0.25s;
   color: rgba(255, 255, 255, 0.9);
 }
+
+@media screen and (max-width: 900px) {
+  /* line 3, ../responsive/menu-responsive.scss */
+  .menu ul {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 670px) {
+  /* line 11, ../responsive/menu-responsive.scss */
+  .menu ul {
+    width: 100%;
+  }
+  /* line 14, ../responsive/menu-responsive.scss */
+  .menu ul li a {
+    font-size: 16px;
+  }
+}

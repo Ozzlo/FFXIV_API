@@ -16,3 +16,12 @@ footer .footer_element a {
   text-decoration: none;
   color: #ffffff;
 }
+
+@media screen and (max-width: 900px) {
+  /* line 3, ../responsive/footer-responsive.scss */
+  footer .footer_element {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+}

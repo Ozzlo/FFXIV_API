@@ -1,0 +1,82 @@
+/* line 1, ../sass/home.scss */
+.presentation {
+  background: url("../../images/backgroundPresentation.jpg") no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 400px 0;
+}
+/* line 6, ../sass/home.scss */
+.presentation p {
+  margin-top: 25px;
+  color: #ffffff;
+  font-size: 25px;
+}
+/* line 11, ../sass/home.scss */
+.presentation i {
+  color: #ffffff;
+  font-style: italic;
+  display: block;
+  margin-top: 20px;
+}
+
+/* line 19, ../sass/home.scss */
+.description {
+  background: #323232;
+  padding: 100px 0;
+}
+/* line 22, ../sass/home.scss */
+.description p {
+  width: 510px;
+  color: #ffffff;
+  font-weight: 300;
+  margin: 0 auto;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+/* line 32, ../sass/home.scss */
+.executive {
+  background: #000000;
+  color: #ffffff;
+  padding: 50px 0;
+}
+/* line 36, ../sass/home.scss */
+.executive h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+/* line 41, ../sass/home.scss */
+.executive ul {
+  width: 650px;
+  margin: 0 auto;
+  display: block;
+}
+/* line 45, ../sass/home.scss */
+.executive ul li {
+  display: flex;
+  justify-content: space-around;
+}
+/* line 48, ../sass/home.scss */
+.executive ul li a {
+  text-decoration: none;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.8;
+  transition: 0.25s;
+}
+/* line 54, ../sass/home.scss */
+.executive ul li a:hover {
+  transition: 0.25s;
+  opacity: 1;
+}
+/* line 58, ../sass/home.scss */
+.executive ul li a > img {
+  border: 3px #ffffff solid;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+/* line 63, ../sass/home.scss */
+.executive ul li a p {
+  margin-bottom: 10px;
+}

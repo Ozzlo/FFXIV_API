@@ -1,0 +1,26 @@
+/* line 1, ../sass/menu.scss */
+.menu {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  width: 100%;
+  padding: 20px 0;
+}
+/* line 6, ../sass/menu.scss */
+.menu ul {
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+/* line 13, ../sass/menu.scss */
+.menu ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.25s;
+}
+/* line 17, ../sass/menu.scss */
+.menu ul li a:hover {
+  transition: 0.25s;
+  color: rgba(255, 255, 255, 0.9);
+}
