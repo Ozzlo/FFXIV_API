@@ -33,6 +33,8 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    width: 1200px;
+    margin: 0 auto;
     .FC_one_member{
       padding: 0 30px;
       &:not(:last-child){
@@ -81,3 +83,5 @@
     }
   }
 }
+
+@import '../responsive/memberList-reponsive';
