@@ -12,9 +12,9 @@
 <div class="content" id="content">
 	<header class="menu">
 		<ul>
-			<li><a href="">Home</a></li>
-			<li><a href="">Free Company</a></li>
-			<li><a href="">Event</a></li>
-			<li><a href="">Contact</a></li>
+			<li><a href="index.php">Home</a></li>
+			<li><a href="memberList.php">Free Company</a></li>
+			<li><a href="calendar.php">Event</a></li>
+			<li><a href="contact.php">Contact</a></li>
 		</ul>
 	</header>
