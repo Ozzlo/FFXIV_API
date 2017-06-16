@@ -1,0 +1,29 @@
+@mixin font($name, $file, $weight, $style) {
+	$url: '../fonts/';
+	@font-face {
+	  font-family: $name;
+	  src:
+	    url($url + $name + '/' + $file +'.eot?#iefix') format('embedded-opentype'),
+	    url($url + $name + '/' + $file +'.woff') format('woff'),
+	    url($url + $name + '/' + $file +'.ttf')  format('truetype'),
+	    url($url + $name + '/' + $file +'.svg#'+ $name) format('svg');
+	  font-weight: $weight;
+	  font-style: $style;
+	}
+}
+
+
+//@include font("LatoWf", "LatoRegular", "normal", "normal");
+
+
+
+/**
+ * @atom Arial
+ * @section Fonts
+ * @markup
+ *  <p style="font-familly: arial">The quick brown fox jumps over the lazy dog</p>
+ */
+$arial         : 'arial';
+
+
+//$lato         : 'LatoWf';

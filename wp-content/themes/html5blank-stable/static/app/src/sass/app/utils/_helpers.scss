@@ -1,0 +1,18 @@
+.table{
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.cell{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.absolute{
+  position: absolute;
+}
+
+.relative{
+  position: relative;
+}

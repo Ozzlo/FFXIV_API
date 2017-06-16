@@ -1,0 +1,16 @@
+{
+   "title":"Disko UI Kit",
+   "files":[
+      "app/src/sass/app/theme/*.scss"
+   ],
+   "target":"styleguide",
+   "css":[
+     "styles/dist/app.min.css",
+     "disko-template/css/theme.css"
+   ],
+   "namespace":"page",
+   "verbose":3,
+   "counterCSS":"",
+   "staticLipsum":false,
+   "placeholderService":false
+}

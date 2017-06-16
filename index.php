@@ -1,22 +1,17 @@
 <?php
+/**
+ * Front to the WordPress application. This file doesn't do anything, but loads
+ * wp-blog-header.php which does and tells WordPress to load the theme.
+ *
+ * @package WordPress
+ */
 
-error_reporting(E_ALL);
-ini_set("display_errors", 1);
+/**
+ * Tells WordPress to load the WordPress theme and output it.
+ *
+ * @var bool
+ */
+define('WP_USE_THEMES', true);
 
-// FREECOMPANY
-error_reporting(E_ALL);
-ini_set("display_errors", 1);
-
-require 'api-autoloader.php';
-use Viion\Lodestone\LodestoneAPI;
-
-$API = new LodestoneAPI();
-
-$FreeCompany = $API->Search->FreeCompany('9234631035923261616', true);
-
-/*echo "<pre>";
-var_dump($FreeCompany);
-echo "</pre>";*/
-
-include 'tpl/home.php';
-?>
+/** Loads the WordPress Environment and Template */
+require( dirname( __FILE__ ) . '/wp-blog-header.php' );

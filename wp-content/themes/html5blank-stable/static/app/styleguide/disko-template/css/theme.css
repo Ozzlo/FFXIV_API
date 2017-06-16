@@ -1,0 +1,35 @@
+body{
+  background: #fafafa;
+}
+
+.SG-header{
+  background: white;
+}
+
+.SG-header::before{
+  display: none;
+}
+
+.SG-logo__name{
+  color: black;
+}
+
+.SG-logo__icon{
+  height: 50px;
+  width: 50px;
+  background: url(http://www.disko.fr/wp-content/themes/disko-new/img/logo-disko-black.svg);
+  background-size: contain;
+  display: inline-block;
+}
+
+.SG-nav .SG-nav__item--active, .SG-button:hover{
+  border-color: #222222;
+}
+
+.SG-nav .SG-nav__item--active:hover{
+  border-bottom-color: black;
+}
+
+.SG-h1, .SG-h2, .SG-h3, .SG-h4, .SG-h5, .SG-h6, .SG-button:hover{
+  color: #222222;
+}

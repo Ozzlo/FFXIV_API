@@ -1,0 +1,25 @@
+{% extends 'FrontBundle::layouts/layout.html.twig' %}
+
+{% block content %}
+
+<div class='row'>
+  <div class='large-12 small-6'>
+
+    <h1>Hello World</h1>
+
+    {{ myVariable }}
+
+    <div class='large-6 small-centered'>
+      <img src='{{ asset('bundles/front/images/dogdog.jpg') }}' />
+    </div>
+
+  </div>
+</div>
+
+{% endblock %}
+
+{% block javascripts %}
+<script>
+  app.pages._index();
+</script>
+{% endblock %}

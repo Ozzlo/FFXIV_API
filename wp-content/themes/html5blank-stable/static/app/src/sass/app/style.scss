@@ -1,0 +1,41 @@
+// --------------------------------------------------Tools //
+
+// --Initializ
+@charset "UTF-8";
+@import "initializ/normalize";
+
+// --Utils
+@import "utils/mixins";
+@import "utils/helpers";
+
+
+
+// --------------------------------------------------Vendors //
+// --Theme
+@import "theme/ui-kit";
+
+
+// --------------------------------------------------Layouts //
+
+// --MOBILE
+@import "breakpoints/small/layout";
+
+// --TABLET
+@media screen and #{breakpoint(medium up)} {
+  @import "breakpoints/medium/layout";
+}
+
+// --DESKTOP
+@media screen and #{breakpoint(large up)} {
+  @import "breakpoints/large/layout";
+}
+
+// --XL DESKTOP
+@media screen and #{breakpoint(xlarge up)} {
+  @import "breakpoints/xlarge/layout";
+}
+
+// --XXL DESKTOP
+@media screen and #{breakpoint(xxlarge up)} {
+  @import "breakpoints/xxlarge/layout";
+}
